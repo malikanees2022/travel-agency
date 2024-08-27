@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+ /* set common class for all section to set there width initially  */
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+ 
+
+/* add a volkho font family class */
+.font-volkhov {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* in footer small icon bg  */
+  .bg-custom-gradient {
+    background: linear-gradient(
+      to right, 
+      #B8D2F1 10%, 
+      #F289AA 20%, 
+      #C68BF0 30%, 
+      #D164DA 40%, 
+      #C963E8 50%, 
+      #BFC2E8 60%, 
+      #FFC999 70%, 
+      #D0D8C9 80%, 
+      #BAD0F1 90%, 
+      #CED8CB 95%, 
+      #FFFFFF 100%
+    );
+  }
